@@ -36,3 +36,14 @@ author:
   googlescholar: "https://scholar.google.com/citations?user=T2hk3bYAAAAJ&hl=en"
   researchgate: "https://www.researchgate.net/profile/Milind-Patil-30"
   linkedin: "milind-patil-099a18110"
+  collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
