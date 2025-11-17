@@ -1,22 +1,37 @@
 ---
-title: "Instuctional Student Assistant"
+title: "Instructional Student Assistant — Advanced Computer Architecture"
 collection: teaching
-type: "Graduate course"
-permalink: /teaching/2022-fall-teaching-1
-venue: "San Jose State University, Department of Electrical Engineering"
-date: 2022-08-16
+type: "Graduate Course"
+permalink: /teaching/2022-fall-nndl
+venue: "San Jose State University — Department of Electrical Engineering"
+date: 2022-08-20
 location: "San Jose, CA, United States"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+## Instructional Student Assistant  
+**Course:** Advanced Computer Architecture  
+**Instructor:** Prof. Dr. Chang Choo
+**Semester:** Fall 2022  
 
-Assisted Prof. Dr. Chang Choo for the course of Advanced Computer Architecture (EE275) for two sections
-having 40 students in each section.
-======
+---
 
-Graded/Corrected examinations/test papers, assignments and submissions to the Professor. Assisted students having questions/doubts
-related to the course such as in assignments as well as projects.
-======
+## Responsibilities
 
-Circulated important notices/messages by the Professor among the students.
-======
+### 🟦 1. Student Mentoring & Support  
+- Assisted graduate students with implementing neural networks using PyTorch and TensorFlow.  
+- Provided guidance for homework assignments, labs, and course projects.  
+- Helped students understand CNNs, RNNs, LSTMs, backpropagation, optimization, and regularization.  
+- Supported debugging of Python ML code and experiment pipelines.
+
+### 🟦 2. Grading & Evaluation  
+- Graded homework assignments, quizzes, and deep-learning project reports.  
+- Evaluated coding assignments involving neural network architectures.
+
+### 🟦 3. Course Facilitation  
+- Conducted office hours to assist students with conceptual and implementation issues.  
+- Helped prepare teaching material and supplementary explanations of core ML concepts.  
+- Coordinated communication between professor and students when needed.
+
+---
+
+This teaching experience strengthened my ability to explain complex AI/ML concepts, mentor students in research-grade code implementation, and support graduate-level engineering courses.
