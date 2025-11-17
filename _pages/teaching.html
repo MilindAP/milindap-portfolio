@@ -1,12 +1,88 @@
 ---
-layout: archive
+layout: page
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
-{% include base_path %}
+<h1>Teaching Experience</h1>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>
+Below is a summary of my teaching and instructional experience at 
+<strong>San Jose State University</strong> in the Department of Electrical Engineering.  
+I have served as an <strong>Instructional Student Assistant (ISA)</strong> for multiple graduate-level EE courses in 
+Artificial Intelligence, Deep Learning, and Computer Vision.
+</p>
+
+<hr />
+
+<h2>Teaching Philosophy</h2>
+
+<p>
+I believe in a hands-on, application-driven approach to teaching.  
+My goal is to help students build strong intuition in:
+</p>
+
+<ul>
+  <li>Machine Learning & Neural Networks</li>
+  <li>Computer Vision & AI Applications</li>
+  <li>Python & MATLAB programming for engineers</li>
+  <li>Deep Learning model design, debugging, and evaluation</li>
+</ul>
+
+<p>
+I emphasize conceptual clarity, real-world applicability, and strong 
+technical communication in all my teaching roles.
+</p>
+
+<hr />
+
+<h2>Teaching Roles</h2>
+
+<p>
+The following are detailed descriptions of my teaching positions.  
+Each item links to a dedicated page describing responsibilities, courses taught, and contributions.
+</p>
+
+<!-- This automatically lists all items from the _teaching collection -->
+<ul>
+  {% for item in site.teaching %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a> — 
+      <em>{{ item.venue }}</em> ({{ item.date | date: "%Y" }})
+    </li>
+  {% endfor %}
+</ul>
+
+<hr />
+
+<h2>Courses Taught / Assisted</h2>
+
+<ul>
+  <li><strong>Neural Networks and Deep Learning</strong></li>
+  <li><strong>Computer Vision with AI Applications (EE267)</strong></li>
+  <li>Machine Learning Fundamentals</li>
+  <li>Reinforcement Learning for Multi-Robot Systems</li>
+  <li>MATLAB & Python for Signal Processing</li>
+</ul>
+
+<hr />
+
+<h2>Skills Developed Through Teaching</h2>
+
+<ul>
+  <li>Explaining complex AI/ML concepts clearly and effectively</li>
+  <li>Debugging and guiding deep learning code in Python</li>
+  <li>Helping students design experiments and analyze results</li>
+  <li>Evaluating assignments, quizzes, and final projects</li>
+  <li>Providing timely academic support and communication</li>
+</ul>
+
+<hr />
+
+<h2>Contact</h2>
+
+<p>
+If you would like to discuss teaching, mentoring, or academic collaboration,  
+feel free to reach out:<br><br>
+<strong>Email:</strong> your_email_here@gmail.com
+</p>
