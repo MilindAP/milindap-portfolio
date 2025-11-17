@@ -39,7 +39,7 @@ author:
   collections:
   publications:
     output: true
-    permalink: /publication/:path/
+    permalink: /publications/:path/
   teaching:
     output: true
     permalink: /teaching/:path/
