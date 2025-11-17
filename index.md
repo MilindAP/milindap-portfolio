@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/images/Milind_new.JPG" alt="Milind Patil" style="width:180px; height:180px; border-radius:50%; object-fit:cover; margin-bottom: 20px;">
+  <img src="/images/Milind_New.jpg" alt="Milind Patil" style="width:180px; height:180px; border-radius:50%; object-fit:cover; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
 # Milind Patil  
