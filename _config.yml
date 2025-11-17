@@ -1,49 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the
-# server process.
+# ===== Site Settings =====
+title: "Milind Patil"
+name: "Milind Patil"
+description: "Unemployed and actively seeking research opportunities in AI/ML for Wireless Communications, CSI-based Sensing, and mmWave/6G systems."
 
-# Basic Site Settings
-locale: "en-US"
-site_theme: "default" # Currently available options are "default", "air"
-title: "Milind Patil / Machine Learning & Wireless AI Researcher"
-title_separator: "-"
-name: &name "Milind Patil"
-description: &description "Milind Patil's academic portfolio"
-# Update this with a general description of your site, this is the default if not overridden by a page
-url: https://milindap.github.io
-# The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-# or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl: "/milindap-portfolio"
-# the subpath of your site, e.g. "/blog"
-repository: "MilindAP/milindap-portfolio"
+url: "https://milindap.github.io"
+baseurl: ""
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# ===== Theme =====
+theme: minima
+minima:
+  skin: light
+  social_links:
+    - platform: github
+      user_url: "https://github.com/milindap"
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/milind-patil-97b676122/"
+    - platform: rss
+
+# ===== Author =====
 author:
-  # Biographic information
-  avatar: "profile.png"
   name: "Milind Patil"
-  pronouns: "He/Him"
-  bio: "Machine Learning & Wireless AI Researcher; RF/Wireless Engineer and AI/ML Enthusiast"
-  location: "Silicon Valley, CA"
-  employer: "Independent Researcher"
-  uri: "https://milindap.github.io/milindap-portfolio/"
-  googlescholar: "https://scholar.google.com/citations?user=T2hk3bYAAAAJ&hl=en"
-  researchgate: "https://www.researchgate.net/profile/Milind-Patil-30"
-  linkedin: "milind-patil-099a18110"
-  collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  teaching:
-    output: true
-    permalink: /teaching/:path/
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
+  email: "your_email_here@gmail.com"
+  ResearchGate: "https://www.researchgate.net/profile/Milind-Patil-30"
 
+# ===== Build Settings =====
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ===== Navigation =====
+header_pages:
+  - index.md
+  - about.md
+  - research.md
+  - publications.md
+  - projects.md
+  - contact.md
