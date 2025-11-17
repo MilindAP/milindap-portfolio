@@ -1,35 +1,73 @@
 ---
+layout: page
 title: "Publications"
-layout: archive
-permalink: /publication/
-collection: publications
+permalink: /publications/
 ---
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
-{% include base_path %}
+<h1>Publications</h1>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p>
+This page lists my key publications in 
+<strong>AI/ML for Wireless Communications, CSI-based sensing, mmWave/6G systems, and multimodal HAR</strong>.
+A complete and always-updated list is available on my 
+<a href="https://www.researchgate.net/profile/Milind-Patil-30" target="_blank">ResearchGate profile</a>.
+</p>
 
+<hr />
 
+<h2>Journal & Conference Publications</h2>
 
+<!-- Publication 1 -->
+<div class="pub-item">
+  <h3>
+    Multi-Link Prediction for mmWave Wireless Communication Systems Using Liquid Time-Constant Networks,
+    Long Short-Term Memory, and Interpretation Using Symbolic Regression
+  </h3>
+  <p><strong>Milind Patil</strong>, et al.</p>
+  <p><em>IEEE ANTS / 2023–2024</em></p>
+  <p>
+    A hybrid AI approach combining LTC networks, LSTM models, and symbolic regression to interpret and
+    forecast mmWave multi-link quality for 5G/6G systems.
+  </p>
+</div>
+
+<hr />
+
+<!-- Publication 2 -->
+<div class="pub-item">
+  <h3>
+    Human Activity Recognition (HAR) Using CSI + Vision with LLM/VLM Fusion
+  </h3>
+  <p><strong>Milind Patil</strong>, et al.</p>
+  <p><em>Submitted to IEEE ANTS 2025</em></p>
+  <p>
+    A multimodal HAR system integrating CSI-based LLM models with vision transformers, enabling robust fall 
+    detection and activity recognition using timestamp-aligned sensory fusion.
+  </p>
+</div>
+
+<hr />
+
+<!-- Publication 3 -->
+<div class="pub-item">
+  <h3>
+    UAV Path Planning Using CNN-based Scene Understanding
+  </h3>
+  <p><strong>Milind Patil</strong>, et al.</p>
+  <p><em>MDPI Sensors (Under Review)</em></p>
+  <p>
+    Proposes a deep learning–based framework that integrates CNN-driven visual scene understanding with UAV
+    navigation for safe and autonomous flight path generation.
+  </p>
+</div>
+
+<hr />
+
+<h2>ResearchGate</h2>
+<p>
+View all publications on my ResearchGate profile:
+<br />
+<a href="https://www.researchgate.net/profile/Milind-Patil-30" target="_blank">
+  https://www.researchgate.net/profile/Milind-Patil-30
+</a>
+</p>
